@@ -1,0 +1,48 @@
+.portfolio-container:hover .card-img-overlay-hover{
+	transform: translateX(0px);
+}
+.card-img-overlay-hover{
+	transform: translateX(-1200px);
+	transition: all 0.9s;
+}
+@media (max-width:1200px) {
+	.page-wrapper{
+		background-size: cover;
+		background-position: center;
+	}
+}
+@media (max-width:992px) {
+		.w-200{
+		width: 200px;
+		margin:auto;
+	}
+}
+
+@media (max-width:768px) {
+	.product-image{
+		width: 150px!important;
+		height: 145px!important;
+	}
+	.product-h2{
+		line-height: 1;
+	}
+	.product-p{
+		line-height: 1.1;
+	}
+	.contact-card{
+		width: 100%;
+	}
+	.footer-icon{
+		width: 145px;
+	}
+
+}
+
+@media (max-width:576px) {
+	.btn-group-vertical{
+		display: block!important;
+		padding-left: 175px; 
+	}
+
+}
+

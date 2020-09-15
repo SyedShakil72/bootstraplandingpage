@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Project2</title>
+	<!-- fontawesome icon -->
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/fontawesome.css">
+	<!-- bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- owl carousel -->
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+	<!-- Global css -->
+	<link rel="stylesheet" type="text/css" href="css/global.css">
+	<!-- Custom css -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="text-white bg-darkBlue">
+<!-- carousel -->
+	<section id="client" class="bg-darkBlue3"><!-- wpo-client-area -->
+		<div class="container-lg" id="client-carousel">
+			<div class="row" id="client-carous">
+				<div class="owl-carousel text-dark">
+				  <div>
+				  	<div class="col-3">
+						<img src="images/c1.png" style="width: 188px!important"  alt="">
+					</div>
+				  </div>
+				  <div>
+				  	<div class="col-3">
+						<img src="images/c2.png" style="width: 188px!important" alt="">
+					</div>
+				  </div>
+				  <div>
+				  	<div class="col-3">
+						<img src="images/c3.png" style="width: 188px!important" alt="">
+					</div>
+				  </div>
+				  <div>
+				  	<div class="col-3">
+						<img src="images/c1.png" style="width: 188px!important" alt="">
+					</div>
+				  </div>
+				  <div>
+				  	<div class="col-3">
+						<img src="images/c2.png" style="width: 188px!important" alt="">
+					</div>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- jquery -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- popper js -->
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<!-- bootstrap js -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<!-- owl carousel min js -->
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript">
+		var owl = $('.owl-carousel');
+		owl.owlCarousel({
+		    items:4,
+		    loop:true,
+		    autoplay:true,
+		    autoplayTimeout:1000,
+		    autoplayHoverPause:true
+		});
+		$('.play').on('click',function(){
+		    owl.trigger('play.owl.autoplay',[1000])
+		})
+		$('.stop').on('click',function(){
+		    owl.trigger('stop.owl.autoplay')
+		})
+	</script>
+</body>
+</html>

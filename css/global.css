@@ -1,0 +1,76 @@
+section{
+	padding-top:100px;
+	padding-bottom: 75px; 
+}
+/* spacing  */
+.paddingY-270px{
+	padding: 270px 0px;
+}
+.padding-75px{
+	padding: 75px;
+}
+.padding-left-2rem{
+    padding-left: 2rem!important;
+}
+/* border */
+.border-color{
+	border-color:#363458!important;
+}
+.border-bottom1px{
+	border-bottom: 1px solid!important;
+}
+.box-shadow-none{
+	box-shadow: none!important;
+}
+/* Background */
+.bg-darkBlue{
+	background-color: #050546;
+}
+.bg-darkBlue2{
+	background-color: #0a115c;
+}
+.bg-darkBlue3{
+	background-color: #0e1668;
+}
+.bg-darkBlue4{
+	background-color: #08084e;
+}
+.bg-darkBlue5{
+	background-color: #242069;
+}
+.bg-darkBlue6{
+	background-color: #121151;
+}
+.bg-bluergb{
+	background: rgba(24, 23, 89, .61);
+}
+.bg-cover{
+	background-size: cover;
+}
+.bg-gradient-black{
+	background-image: inear-gradient
+}
+.bg-dark-transparent{
+	background-color:#06093487;
+}
+/* Text */
+.font-size-21px{
+	font-size: 21px;
+}
+.font-3rem{
+	    font-size: 3rem;
+}
+.line-height-0{
+	line-height: 1.4 !important;
+}
+::placeholder{
+	color: white!important;
+}
+/* Sizing */
+.icon-width{
+	width: 60px ;
+}
+.btn-width-height{
+	height:60px !important;
+	width:60px !important;
+}
